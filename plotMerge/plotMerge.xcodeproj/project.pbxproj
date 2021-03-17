@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1244C3BB25E76CE90084AE39 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244C3BA25E76CE90084AE39 /* ChartData.swift */; };
+		126B1AA625E640B900D5D18D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126B1AA525E640B900D5D18D /* AppDelegate.swift */; };
+		126B1AA825E640B900D5D18D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126B1AA725E640B900D5D18D /* SceneDelegate.swift */; };
+		126B1AAA25E640B900D5D18D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126B1AA925E640B900D5D18D /* ViewController.swift */; };
+		126B1AAD25E640B900D5D18D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126B1AAB25E640B900D5D18D /* Main.storyboard */; };
+		126B1AAF25E640BB00D5D18D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126B1AAE25E640BB00D5D18D /* Assets.xcassets */; };
+		126B1AB225E640BB00D5D18D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126B1AB025E640BB00D5D18D /* LaunchScreen.storyboard */; };
+		3BBDD64F05BC7AD86B1D44F0 /* Pods_plotMerge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D7EF69CF728EE61BBE7EEE /* Pods_plotMerge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1244C3BA25E76CE90084AE39 /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		126B1AA225E640B900D5D18D /* plotMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plotMerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		126B1AA525E640B900D5D18D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		126B1AA725E640B900D5D18D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		126B1AA925E640B900D5D18D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		126B1AAC25E640B900D5D18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		126B1AAE25E640BB00D5D18D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		126B1AB125E640BB00D5D18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		126B1AB325E640BB00D5D18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F24547E2630872CDF218E6 /* Pods-plotMerge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plotMerge.debug.xcconfig"; path = "Target Support Files/Pods-plotMerge/Pods-plotMerge.debug.xcconfig"; sourceTree = "<group>"; };
+		5EC1519F8630F678739C1258 /* Pods-plotMerge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plotMerge.release.xcconfig"; path = "Target Support Files/Pods-plotMerge/Pods-plotMerge.release.xcconfig"; sourceTree = "<group>"; };
+		E2D7EF69CF728EE61BBE7EEE /* Pods_plotMerge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_plotMerge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		126B1A9F25E640B900D5D18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBDD64F05BC7AD86B1D44F0 /* Pods_plotMerge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		126B1A9925E640B900D5D18D = {
+			isa = PBXGroup;
+			children = (
+				126B1AA425E640B900D5D18D /* plotMerge */,
+				126B1AA325E640B900D5D18D /* Products */,
+				48D914405008E5E9150A7021 /* Pods */,
+				262F992F0452CBE29AFA2E32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		126B1AA325E640B900D5D18D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				126B1AA225E640B900D5D18D /* plotMerge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		126B1AA425E640B900D5D18D /* plotMerge */ = {
+			isa = PBXGroup;
+			children = (
+				126B1AA525E640B900D5D18D /* AppDelegate.swift */,
+				126B1AA725E640B900D5D18D /* SceneDelegate.swift */,
+				126B1AA925E640B900D5D18D /* ViewController.swift */,
+				1244C3BA25E76CE90084AE39 /* ChartData.swift */,
+				126B1AAB25E640B900D5D18D /* Main.storyboard */,
+				126B1AAE25E640BB00D5D18D /* Assets.xcassets */,
+				126B1AB025E640BB00D5D18D /* LaunchScreen.storyboard */,
+				126B1AB325E640BB00D5D18D /* Info.plist */,
+			);
+			path = plotMerge;
+			sourceTree = "<group>";
+		};
+		262F992F0452CBE29AFA2E32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2D7EF69CF728EE61BBE7EEE /* Pods_plotMerge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48D914405008E5E9150A7021 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18F24547E2630872CDF218E6 /* Pods-plotMerge.debug.xcconfig */,
+				5EC1519F8630F678739C1258 /* Pods-plotMerge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		126B1AA125E640B900D5D18D /* plotMerge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126B1AB625E640BB00D5D18D /* Build configuration list for PBXNativeTarget "plotMerge" */;
+			buildPhases = (
+				FAF9C9F12AAB6841CDBC4EDB /* [CP] Check Pods Manifest.lock */,
+				126B1A9E25E640B900D5D18D /* Sources */,
+				126B1A9F25E640B900D5D18D /* Frameworks */,
+				126B1AA025E640B900D5D18D /* Resources */,
+				8D9ACE2ACA791BC7EA857A4B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = plotMerge;
+			productName = plotMerge;
+			productReference = 126B1AA225E640B900D5D18D /* plotMerge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		126B1A9A25E640B900D5D18D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					126B1AA125E640B900D5D18D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 126B1A9D25E640B900D5D18D /* Build configuration list for PBXProject "plotMerge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 126B1A9925E640B900D5D18D;
+			productRefGroup = 126B1AA325E640B900D5D18D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				126B1AA125E640B900D5D18D /* plotMerge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		126B1AA025E640B900D5D18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126B1AB225E640BB00D5D18D /* LaunchScreen.storyboard in Resources */,
+				126B1AAF25E640BB00D5D18D /* Assets.xcassets in Resources */,
+				126B1AAD25E640B900D5D18D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D9ACE2ACA791BC7EA857A4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-plotMerge/Pods-plotMerge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-plotMerge/Pods-plotMerge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-plotMerge/Pods-plotMerge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAF9C9F12AAB6841CDBC4EDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-plotMerge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		126B1A9E25E640B900D5D18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126B1AAA25E640B900D5D18D /* ViewController.swift in Sources */,
+				126B1AA625E640B900D5D18D /* AppDelegate.swift in Sources */,
+				1244C3BB25E76CE90084AE39 /* ChartData.swift in Sources */,
+				126B1AA825E640B900D5D18D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		126B1AAB25E640B900D5D18D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				126B1AAC25E640B900D5D18D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		126B1AB025E640BB00D5D18D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				126B1AB125E640BB00D5D18D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		126B1AB425E640BB00D5D18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		126B1AB525E640BB00D5D18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		126B1AB725E640BB00D5D18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F24547E2630872CDF218E6 /* Pods-plotMerge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = plotMerge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mytest.plotMerge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		126B1AB825E640BB00D5D18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC1519F8630F678739C1258 /* Pods-plotMerge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = plotMerge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mytest.plotMerge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		126B1A9D25E640B900D5D18D /* Build configuration list for PBXProject "plotMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126B1AB425E640BB00D5D18D /* Debug */,
+				126B1AB525E640BB00D5D18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		126B1AB625E640BB00D5D18D /* Build configuration list for PBXNativeTarget "plotMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126B1AB725E640BB00D5D18D /* Debug */,
+				126B1AB825E640BB00D5D18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 126B1A9A25E640B900D5D18D /* Project object */;
+}
